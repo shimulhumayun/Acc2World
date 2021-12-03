@@ -1,4 +1,4 @@
-<mxfile modified="2021-12-03T01:21:50.498Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="jO-BHO51KVI9_SmsEnzG" version="15.8.8" type="github">
+<mxfile modified="2021-12-03T01:48:44.190Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="LDUKPtBjFU_CxzK3hLKI" version="15.8.8" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1172" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -76,11 +76,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="t8xD_aFRmpKBmAr_3XRV-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UEzPUAAOIrF-is8g5C7q-110" target="UEzPUAAOIrF-is8g5C7q-114">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UEzPUAAOIrF-is8g5C7q-110" value="User" style="outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_notification;pointerEvents=1;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="150" y="336" width="100" height="81" as="geometry" />
+        <mxCell id="t8xD_aFRmpKBmAr_3XRV-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="UEzPUAAOIrF-is8g5C7q-114">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="249.78492941277955" y="376.5" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="UEzPUAAOIrF-is8g5C7q-114" value="Amazon API&lt;br&gt;Gateway&lt;br&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="369.5" y="337.5" width="78" height="78" as="geometry" />
@@ -105,6 +104,28 @@
         </mxCell>
         <mxCell id="t8xD_aFRmpKBmAr_3XRV-6" value="IAM Role" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#BF0816;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" vertex="1" parent="1">
           <mxGeometry x="796.5" y="620" width="78" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="t8xD_aFRmpKBmAr_3XRV-10" value="Engineering Challenge - Infrastructure as Code" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="410" y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t8xD_aFRmpKBmAr_3XRV-11" value="Cloudwarch Alarm" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudwatch_2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="100" width="83.5" height="83.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t8xD_aFRmpKBmAr_3XRV-12" value="Route53 Healthcheck" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.route_53;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="t8xD_aFRmpKBmAr_3XRV-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=open;startFill=0;endArrow=open;endFill=0;strokeWidth=2;strokeColor=#808080;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="462.5" y="141.5" />
+              <mxPoint x="462.5" y="141.5" />
+            </Array>
+            <mxPoint x="399.5" y="141.5" as="sourcePoint" />
+            <mxPoint x="536" y="141.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t8xD_aFRmpKBmAr_3XRV-30" value="Client" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.management_console;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="337.5" width="80" height="82.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
