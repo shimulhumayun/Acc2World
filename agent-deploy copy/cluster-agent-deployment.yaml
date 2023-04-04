@@ -54,7 +54,7 @@ spec:
                   key: api-key
                   optional: true
             - name: DD_CLUSTER_NAME
-              value: "eks-us-east-2-dev3"
+              value: "eks-us-east-2-dev1"
             - name: KUBERNETES
               value: "yes"
             - name: DD_APP_KEY
