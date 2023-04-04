@@ -57,6 +57,8 @@ spec:
               value: "env:dev"
             - name: DD_LOG_LEVEL
               value: "INFO"
+            - name : DD_CONTAINER_EXCLUDE
+              value: "kube_namespace:kube-node-lease kube_namespace:devops-ns kube_namespace:kube-public kube_namespace:kube-system kube_namespace:datadog-ns kube_namespace:traefik-ingress-ns"
             - name: DD_DOGSTATSD_PORT
               value: "8127"
             - name: DD_DOGSTATSD_NON_LOCAL_TRAFFIC
